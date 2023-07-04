@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#logo {
+  border-radius: 200;
+  width: 100px;
+  padding-left: 30px;
+}
+ul {
+  text-decoration: none;
+}
+.nav-item {
+  display: inline;
+  font-size: 20px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+li a:hover {
+  color: rgb(192, 3, 3);
+}

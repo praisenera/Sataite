@@ -1,0 +1,18 @@
+.card-heading {
+  text-align: start;
+}
+.card-img-top {
+  margin-bottom: 0px;
+}
+.top-brand-container {
+  margin: auto;
+  box-shadow: none;
+}
+.carousel-control-prev {
+  color: black;
+  font-weight: 20px;
+}
+
+.carousel-control-next {
+  color: black;
+}

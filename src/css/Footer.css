@@ -1,0 +1,28 @@
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  /* background: rgb(138, 1, 1); */
+  background: linear-gradient(
+    90deg,
+    rgba(138, 1, 1, 1) 0%,
+    rgba(153, 1, 1, 1) 50%,
+    rgb(187, 0, 0) 100%
+  );
+}
+.brand {
+  font-size: 40px;
+  font-family: Impact;
+  text-align: center;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  text-indent: 10%;
+}
+.links {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 30px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}

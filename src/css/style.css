@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  width: 100px;
+}
+.res {
+  font-size: 30px;
+  float: right;
+  margin-right: 250px;
+}
+.category {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+}
+li a.active {
+  color: rgb(129, 124, 124);
+}
+.categories {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  font-size: 16px;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn {
+  background: linear-gradient(
+    90deg,
+    rgba(138, 1, 1, 1) 0%,
+    rgba(153, 1, 1, 1) 50%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  border: none;
+  box-sizing: 20px;
+}
+.meals {
+  text-align: center;
+}

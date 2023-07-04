@@ -1,0 +1,49 @@
+.card-test {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30;
+  text-align: center;
+  margin-top: 70px;
+  background: linear-gradient(
+    90deg,
+    rgba(138, 1, 1, 1) 0%,
+    rgba(153, 1, 1, 1) 50%,
+    #d30303 100%
+  );
+  color: white;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.card-img {
+  border-radius: 100%;
+}
+.container {
+  position: relative;
+}
+.cities {
+  font-weight: bold;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.city-group {
+  display: inline;
+  margin-top: 100px;
+  text-align: center;
+}
+.city {
+  margin-right: 50px;
+  width: 300px;
+}
+.city:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.img-text {
+  position: absolute;
+  font-family: impact;
+  font-size: 15px;
+}

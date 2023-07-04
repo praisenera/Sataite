@@ -1,0 +1,65 @@
+.container {
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30;
+  text-align: center;
+}
+.card-text-cuisine {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.card_heading {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.featured-res {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: start;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 14px;
+  text-align: start;
+}
+.featured {
+  color: rgb(179, 174, 174);
+  font-size: 14px;
+  text-align: start;
+}
+.ratings i {
+  color: rgb(231, 191, 12);
+  padding-top: 0px;
+  font-size: 16px;
+}
+a {
+  color: white;
+}
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}

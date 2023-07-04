@@ -1,0 +1,17 @@
+#rate-heading {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+#rate-heading .bi {
+  font-size: 10px;
+}
+.rate {
+  font-weight: bold;
+}
+.bi {
+  color: rgb(231, 191, 12);
+}
+.rate .bi {
+  font-size: 30px;
+}

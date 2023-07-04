@@ -15,7 +15,7 @@ import Cart from "./satiate/Cart";
 // import OrderProcessing from "./Satiate/OrderProcessing";
 // import OrderTracking from "./Satiate/OrderTracking";
 import Footer from "./satiate/Footer";
-import { BrowserRouter, Route, Routes, Navlink } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
